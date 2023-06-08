@@ -19,7 +19,7 @@ export default function Contact() {
         setDone(true);
     };
     return (
-        <div className="contact">
+        <div className="contact contact-form" id='Contact'>
             <div className="n-left">
                 <div className="awesome">
                     <span style={{color: darkMode ? 'white' : ''}}>Get in touch</span>

@@ -4,10 +4,9 @@ import {Swiper, SwiperSlide} from 'swiper/react'
 import { Pagination } from 'swiper';
 import 'swiper/css/pagination';
 import 'swiper/css';
-import profilePic1 from '../../img/profile1.jpg';
-import profilePic2 from '../../img/profile2.jpg';
-import profilePic3 from '../../img/profile3.jpg';
-import profilePic4 from '../../img/profile4.jpg';
+import profilePic1 from '../../img/1.jpg';
+import profilePic2 from '../../img/2.jpg';
+import profilePic3 from '../../img/3.png';
 
 
 export default function Testimonials() {
@@ -26,7 +25,7 @@ export default function Testimonials() {
         }
     ];
     return (
-        <div className="t-wrapper">
+        <div className="t-wrapper" id='Testimonials'>
             <div className="t-heading">
                 <span>Some words of</span>
                 <span> my friends </span>

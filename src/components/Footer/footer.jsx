@@ -18,7 +18,7 @@ export default function Footer() {
                     <a href="https://twitter.com/Aakarsh_beohar" target='_blank'>
                         <Twitter color='white' size='3rem'/>
                     </a>
-                    <a href="" target='_blank'>
+                    <a href="https://www.linkedin.com/in/aakarsh-beohar-75476a27a/" target='_blank'>
                         <Linkedin color='white' size='3rem'/>
                     </a>
                 </div>

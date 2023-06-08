@@ -3,7 +3,7 @@ import './experience.css';
 
 export default function Experience(props) {
     return (
-        <div className="experience">
+        <div className="experience" id='Experience'>
             <div className="achievement">
                 <div className="circle">6+</div>
                 <span>Months</span>

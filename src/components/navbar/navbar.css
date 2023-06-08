@@ -44,3 +44,23 @@ li {
 .n-btn {
     flex: 2;
 }
+
+@media screen and (max-width: 480px) {
+    .n-list {
+        display: none;
+    }
+    .n-btn {
+        display: none;
+    }
+}
+
+
+/* .button a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.button a:hover {
+    color: var(--orange);
+} */

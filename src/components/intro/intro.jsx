@@ -12,7 +12,7 @@ import Crown from '../../img/crown.png';
 import glassesEmoji from '../../img/glassesimoji.png';
 import FloatingDiv from '../FloatingDiv/floatingdiv.jsx';
 import { themeContext } from '../../context';
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 
 export default function Intro() {
@@ -27,10 +27,10 @@ export default function Intro() {
                     <span>Aakarsh Beohar</span>
                     <span>Full Stack Web Developer with decent level of experience in making web apps, designing ui-ux and providing top quality work!</span>
                 </div>
-                <button className='button i-button'>Hire Me</button>
+                <a href="mailto:aakarshbeohar2004@gmail.com"> <button className='button i-button'>Hire Me</button> </a>
                 <div className="i-icons">
                     <a href="https://github.com/aakarsh-2004" target='_blank'><img src={githubImage} alt="" /></a>
-                    <a href="https://github.com/aakarsh-2004" target='_blank'><img src={linkedinImage} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/aakarsh-beohar-75476a27a/" target='_blank'><img src={linkedinImage} alt="" /></a>
                     <a href="https://twitter.com/Aakarsh_beohar" target='_blank'><img src={twitterImage} alt="" className='twitter' /></a>
                 </div>
             </div>
@@ -38,14 +38,14 @@ export default function Intro() {
                     <img src={Vector1} alt="" />
                     <img src={Vector2} alt="" />
                     <img src={Boy} alt="" />
-                    {/* <img src={glassesEmoji} alt="" /> */}
-                    <motion.img src={glassesEmoji} alt="" 
+                    <img src={glassesEmoji} alt="" />
+                    {/* <motion.img src={glassesEmoji} alt="" 
                     initial= {{left: '-36%'}} whileInView= {{left: '-24%'}} transition={transition}
-                    />
-                    <div style={{top: '-4%', left: '64%'}}>
+                    /> */}
+                    <div style={{top: '-4%', left: '64%'}} className='floating-div'>
                         <FloatingDiv image = {Crown} txt1 = 'Web' txt2 = 'Developer' />
                     </div>
-                    <div style={{top: '18rem', left: '0rem'}}>
+                    <div style={{top: '18rem', left: '0rem'}} className='floating-div'>
                         <FloatingDiv image = {thumbsUp} txt1 = 'Best Design' txt2 = 'Award'/>
                     </div>
                     {/* Blur divs */}

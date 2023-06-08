@@ -12,7 +12,7 @@ export default function Services(props) {
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
     return (
-        <div className="services">
+        <div className="services" id='Services'>
             {/* {left side} */}
             <div className="awesome">
                 <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
@@ -33,7 +33,7 @@ export default function Services(props) {
                     <Card 
                         emoji = {HeartEmoji}
                         heading = 'Design'
-                        detail = 'Figma, Sketch, Photoshop, Illustrator'
+                        detail = 'Figma, Sketch, Adobe Photoshop, Adobe llustrator, Adobe XD'
                     />
                 </div>
                 <div style={{top: '12rem', left: '-7rem'}}>

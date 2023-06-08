@@ -84,3 +84,28 @@
     left: 18rem;
     top: 8rem;
 }
+
+
+@media screen and (max-width: 480px) {
+    .works {
+        flex-direction: column;
+        height: 55rem;
+        padding: 0;
+        gap: 0rem;
+    }
+    .w-right {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        transform: scale(0.7);
+    }
+    .w-mainCircle {
+        position: static;
+    }
+    .w-backCircle {
+        left: 8rem !important;
+    }
+    .awesome {
+        margin-top: 100px;
+    }
+}

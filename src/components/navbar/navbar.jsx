@@ -2,6 +2,7 @@ import React from 'react';
 import './navbar.css';
 import '../../App.css';
 import Toggle from '../toggle/toggle.jsx';
+import {Link} from 'react-scroll'
 
 export default function Navbar(props) {
     return (
@@ -13,16 +14,28 @@ export default function Navbar(props) {
             <div className="n-right">
                 <div className="n-list">
                     <ul>
-                        <li>Home</li>
-                        <li>Services</li>
-                        <li>Experience</li>
-                        <li>Portfolio</li>
-                        <li>Testimonials</li>
+                        <Link spy= {true} to= 'Navbar' activeClass = 'activeClass' smooth ={true}>
+                            <li>Home</li>
+                        </Link>
+                        <Link spy= {true} to= 'Services' activeClass = 'activeClass' smooth ={true}>
+                            <li>Services</li>
+                        </Link>
+                        <Link spy= {true} to= 'Experience' activeClass = 'activeClass' smooth ={true}>
+                            <li>Experience</li>
+                        </Link>
+                        <Link spy= {true} to= 'Portfolio'activeClass = 'activeClass' smooth ={true}>
+                            <li>Portfolio</li>
+                        </Link>
+                        <Link spy= {true} to= 'Testimonials' activeClass = 'activeClass' smooth ={true}>
+                            <li>Testimonials</li>
+                        </Link>
                     </ul>
                 </div>
-                <button className='button n-btn'>
-                    Contact
-                </button>
+                
+                    <a href="mailto:aakarshbeohar2004@gmail.com"> 
+                        <button className='button n-btn'>Contact</button>
+                    </a>
+                
             </div>
         </div>
     )
