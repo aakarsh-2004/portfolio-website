@@ -40,7 +40,7 @@ export default function Services(props) {
                     <Card 
                         emoji = {Glasses}
                         heading = 'Developer'
-                        detail = 'HTML, CSS, JavaSript, React js, Node.js, Bootstrap, MongoDB, EJS'
+                        detail = 'HTML, CSS, JavaScript, React js, Node.js, Bootstrap, MongoDB, EJS'
                         />
                 </div>
                 <div style={{top: '19rem', left: '14rem'}}>
